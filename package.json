@@ -1,0 +1,36 @@
+{
+  "name": "internal-analytics",
+  "version": "1.0.0",
+  "description": "for internal usage of google analytics",
+  "main": "dist/internal-analytics.min.js",
+  "files": [
+    "dist/internal-analytics.min.js",
+    "src"
+  ],
+  "scripts": {
+    "build": "babel src/index.js --presets minify --out-file dist/internal-analytics.min.js"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "google-analytics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamishClulee/internal-analytics.git"
+  },
+  "author": "Hamish Clulee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HamishClulee/internal-analytics/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "babel-preset-minify": "^0.5.1"
+  },
+  "homepage": "https://github.com/HamishClulee/internal-analytics#readme",
+  "dependencies": {
+    "vue-gtag": "^1.6.4"
+  }
+}
